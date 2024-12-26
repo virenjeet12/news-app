@@ -1,0 +1,32 @@
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: linear-gradient(90deg, #aeb5d1, #2a5298); */
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 25px;
+    margin-left: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-button {
+    background-color: #dddee5;
+    color: #2a5298;
+    border: none;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: #2a5298;
+    color: #ffffff;
+}

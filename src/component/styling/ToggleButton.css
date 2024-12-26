@@ -1,0 +1,30 @@
+.toggle-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    vertical-align: middle;
+  }
+  
+  .toggle-button.ishindi {
+    background-color: #4CAF50; /* Green for "On" state */
+    color: white;
+  }
+  
+  .toggle-button.isenglish {
+    background-color: #525cc7; /* Red for "Off" state */
+    color: white;
+  }
+  
+  .toggle-button:hover {
+    opacity: 0.8;
+  }
+  
